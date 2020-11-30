@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+}
+
+.table1{
+	background-color: pink;
+    border: 5px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    border-spacing: 0;
+    padding: 1%;
+}
+.table2{
+	background-color: lightpink;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    border-spacing: 0;
+    padding: 1%;
+}
