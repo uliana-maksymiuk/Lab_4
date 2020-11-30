@@ -18,7 +18,9 @@
           		  Купити {{item.name}} - {{item.quantity}} шт
             	<button ng-click="list1.removeItem($index);">Купити</button>
         	</li> 
-    	</ol>
+    	</ol><div ng-if="list1.item.length === 0">
+        Усе куплено.
+    </div>
     </div>
 </div>
 </tr>
